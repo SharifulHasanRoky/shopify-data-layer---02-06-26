@@ -5,11 +5,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-5MPFZLPL');
 
-// The code is made by web analytics solution (Abdullah Al Masum)
-// This code is free for all and future update will be provided
-// This includes latest update recommendation from shopify
-
-
 //page view event setup
  analytics.subscribe("page_viewed", (event) => {
   console.log('custom event', event)
